@@ -1,0 +1,68 @@
+{
+  "name": "delivery-middleare",
+  "version": "1.0.0",
+  "description": "Backend service to secure API URLS and Tokens",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/simple2manage/door-delivery-web-app.git"
+  },
+  "keywords": [
+    "kubesaef",
+    "kubesaef-middleware"
+  ],
+  "author": "sqsrinivasaperumal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/simple2manage/door-delivery-web-app/issues"
+  },
+  "homepage": "https://gitlab.com/simple2manage/door-delivery-web-app#readme",
+  "dependencies": {
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
+    "antd": "^4.2.4",
+    "axios": "^0.21.1",
+    "base-64": "^0.1.0",
+    "body-parser": "^1.19.0",
+    "connect-redis": "^3.4.1",
+    "convict": "^5.0.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "cryptr": "^6.0.2",
+    "debug": "^4.1.1",
+    "dotenv": "^8.0.0",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "express-session": "^1.16.1",
+    "form-data": "^2.4.0",
+    "formidable": "^1.2.1",
+    "helmet": "^3.18.0",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "js-yaml": "^3.14.0",
+    "lodash": "^4.17.15",
+    "mime": "^2.4.4",
+    "morgan": "^1.9.1",
+    "node-rsa": "^1.0.8",
+    "nodemailer": "^6.3.0",
+    "object-encrypter": "^0.1.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "redis": "^2.8.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
+    "stripe": "^7.5.4",
+    "uuid": "^3.3.2",
+    "yaml": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4",
+    "standard": "^12.0.1"
+  }
+}

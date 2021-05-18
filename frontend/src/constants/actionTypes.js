@@ -1,0 +1,104 @@
+export const APP_LOAD = "APP_LOAD";
+export const REDIRECT = "REDIRECT";
+export const LOGIN = "LOGIN";
+export const LOGOUT = "LOGOUT";
+export const ASYNC_START = "ASYNC_START";
+export const ASYNC_END = "ASYNC_END";
+
+export const IS_LOGGEDIN = "IS_LOGGEDIN";
+export const LOGIN_PAGE_UNLOADED = "LOGIN_PAGE_UNLOADED";
+
+/* Categories */
+export const CATEGORY_CREATE = "CATEGORY_CREATE";
+export const CATEGORY_LIST = "CATEGORY_LIST";
+export const CATEGORY_VIEW = "CATEGORY_VIEW";
+export const CATEGORY_UPDATE = "CATEGORY_UPDATE";
+export const CATEGORY_CHANGE_STATUS = "CATEGORY_CHANGE_STATUS";
+export const CATEGORY_DELETE = "CATEGORY_DELETE";
+export const UPLOAD_PHOTO = "UPLOAD_PHOTO";
+
+/*Guest crud*/
+
+
+export const GUEST_LIST = "GUEST_LIST";
+export const GUEST_VIEW = "GUEST_VIEW";
+export const GUEST_CHANGE_STATUS = "GUEST_CHANGE_STATUS";
+export const GUEST_APPROVE_STATUS = "GUEST_APPROVE_STATUS";
+
+/*Host crud*/
+
+
+export const HOST_LIST = "HOST_LIST";
+export const HOST_VIEW = "HOST_VIEW";
+export const HOST_CHANGE_STATUS = "HOST_CHANGE_STATUS";
+export const HOST_APPROVE_STATUS = "HOST_APPROVE_STATUS";
+
+/*Host crud*/
+
+
+export const COUPON_VIEW = "COUPON_VIEW";
+export const COUPON_CHANGE_STATUS = "COUPON_CHANGE_STATUS";
+
+/**Coupons */
+export const COUPON_CREATE = "COUPON_CREATE";
+export const COUPON_LIST = "COUPON_LIST";
+export const COUPON_UPDATE = "COUPON_UPDATE";
+export const COUPON_DELETE = "COUPON_DELETE";
+
+/**Subscribers */
+export const  SUBSCRIBERS_LIST = "SUBSCRIBERS_LIST";
+export const  SUBSCRIBERS_VIEW = "SUBSCRIBERS_VIEW";
+/*Subscription crud*/
+
+export const SUBSCRIPTION_CREATE = "SUBSCRIPTION_CREATE";
+export const SUBSCRIPTION_UPDATE = "SUBSCRIPTION_UPDATE";
+export const SUBSCRIPTION_LIST = "SUBSCRIPTION_LIST";
+export const SUBSCRIPTION_VIEW = "SUBSCRIPTION_VIEW";
+export const SUBSCRIPTION_CHANGE_STATUS = "SUBSCRIPTION_CHANGE_STATUS";
+export const SUBSCRIPTION_APPROVE_STATUS = "SUBSCRIPTION_APPROVE_STATUS";
+
+/** Experience */
+export const EXPERIENCE_LIST_TEMPLATE = "EXPERIENCE_LIST_TEMPLATE";
+export const EXPERIENCE_LIST = "EXPERIENCE_LIST";
+export const EXPERIENCE_GUEST_LIST = "EXPERIENCE_GUEST_LIST";
+
+/** Experience_view, Experience_template, Orders_view */
+export const EXPERIENCE_VIEW = "EXPERIENCE_VIEW";
+export const EXPERIENCE_TEMPLATE_VIEW = "EXPERIENCE_TEMPLATE_VIEW";
+export const EXPERIENCE_TEMPLATE_UPDATE = "EXPERIENCE_TEMPLATE_UPDATE";
+export const ORDER_VIEW = "ORDER_VIEW";
+
+/*Experience_template  status*/
+
+export const EXPERIENCE_CHANGE_STATUS = "EXPERIENCE_CHANGE_STATUS";
+export const EXPERIENCE_APPROVE_STATUS = "EXPERIENCE_APPROVE_STATUS";
+/**Experience rating  */
+export const EXPERIENCE_RATING_LIST = "EXPERIENCE_RATING_LIST";
+export const RATING_CHANGE_STATUS = "RATING_CHANGE_STATUS";
+ /**Transaction  */
+ export const TRANSACTION_LIST = "TRANSACTION_LIST";
+ export const TRANSACTION_VIEW = "TRANSACTION_VIEW";
+
+ /* Package */
+export const PACKAGE_CREATE = "PACKAGE_CREATE";
+export const PACKAGE_LIST = "PACKAGE_LIST";
+export const PACKAGE_VIEW = "PACKAGE_VIEW";
+export const PACKAGE_UPDATE = "PACKAGE_UPDATE";
+export const PACKAGE_CHANGE_STATUS = "PACKAGE_CHANGE_STATUS";
+ /**Badges */
+ export const BADGES_LIST = 'BADGES_LIST';
+ export const BADGES_VIEW = 'BADGES_VIEW';
+ export const BADGES_CREATE = 'BADGES_CREATE';
+ export const BADGES_UPDATE = 'BADGES_UPDATE';
+ export const BADGES_CHANGE_STATUS = 'BADGES_CHANGE_STATUS';
+// Payment calculation
+export const PAYMENT_DUE = "PAYMENT_DUE";
+export const PAYMENT_TRANSFER = "PAYMENT_TRANSFER";
+// Order
+export const ORDER_LIST = "ORDER_LIST";
+export const ORDER_VIEW_ID = "ORDER_VIEW_ID";
+export const ORDER_REFUND = "ORDER_REFUND";
+
+// Ratings
+
+export const RATINGS_LIST = "RATINGS_LIST";

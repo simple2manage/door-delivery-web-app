@@ -1,0 +1,23 @@
+.breadcrumbMain {
+  width: 100%;
+  float: left;
+}
+
+.breadcrumbMain .ant-breadcrumb {
+  font-size: 12px;
+  padding: 0 20px;
+}
+
+.breadcrumbMain .ant-breadcrumb a {
+  color: #595c97;
+}
+
+.breadcrumbMain .ant-breadcrumb span:last-child {
+  color: #141322;
+  font-weight: 600;
+}
+
+.breadcrumbMain .ant-breadcrumb .ant-breadcrumb-separator {
+  color: #aeb0d7  !important;
+}
+/*# sourceMappingURL=breadcrumb-style.css.map */

@@ -1,0 +1,123 @@
+.ListCategoriesContent {
+  width: 100%;
+  float: left;
+  padding: 15px;
+}
+
+@media (max-width: 992px) {
+  .ListCategoriesContent {
+    padding-right: 35px;
+  }
+}
+
+.ListCategoriesContent .PageTitle {
+  width: 100%;
+  float: left;
+  color: #141322;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.ListCategoriesContent .UserTable {
+  width: 100%;
+  float: left;
+}
+
+@media (max-width: 767px) {
+  .ListCategoriesContent .UserTable {
+    overflow: scroll;
+  }
+}
+
+.ListCategoriesContent .UserTable .ant-table-thead > tr > th {
+  font-size: 13px;
+  color: #595c97;
+  font-weight: 500;
+  text-align: left;
+  background: #f0f2f4;
+  border-bottom: 1px solid #e4e9f0;
+  -webkit-transition: background .3s ease;
+  transition: background .3s ease;
+}
+
+@media (max-width: 767px) {
+  .ListCategoriesContent .UserTable .ant-table-thead > tr > th {
+    white-space: nowrap;
+  }
+}
+
+.ListCategoriesContent .UserTable .ant-table-tbody > tr > td {
+  padding: 16px 16px;
+  overflow-wrap: break-word;
+  font-size: 13px;
+  color: #595c97;
+}
+
+@media (max-width: 767px) {
+  .ListCategoriesContent .UserTable .ant-table-tbody > tr > td {
+    white-space: nowrap;
+  }
+}
+
+.ListCategoriesContent .UserTable .ant-btn-link {
+  color: #5960b4;
+  font-size: 13px;
+  height: 24px;
+  padding: 0 10px;
+}
+
+.ListCategoriesContent .CategoriesViewContainer {
+  width: 100%;
+  float: left;
+}
+
+.ListCategoriesContent .CategoriesViewContainer .CategoriesViewList {
+  width: 100%;
+  float: left;
+}
+
+.ListCategoriesContent .CategoriesViewContainer .CategoriesViewList .TextRegular {
+  width: 100%;
+  float: left;
+  font-size: 13px;
+  color: #141322;
+  font-weight: 400;
+}
+
+.ListCategoriesContent .CategoriesViewContainer .CategoriesViewList .TextSemiBold {
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  color: #141322;
+  font-weight: 600;
+}
+
+.ListCategoriesContent .CategoriesViewContainer .CategoriesViewProfile {
+  width: 100%;
+  float: left;
+}
+
+.ListCategoriesContent .CategoriesViewContainer .btn-active {
+  background-color: #30d972;
+  border-color: #30d972;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.ListCategoriesContent .CategoriesViewContainer .btn-deactive {
+  background-color: #ff4d4f;
+  border-color: #ff4d4f;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.ant-form-horizontal .ant-form-item-label {
+  -ms-flex-positive: 0;
+  -webkit-box-flex: 0;
+          flex-grow: 0;
+  width: 100%;
+  text-align: left;
+}
+/*# sourceMappingURL=userlist.css.map */

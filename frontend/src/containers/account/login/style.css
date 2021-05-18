@@ -1,0 +1,424 @@
+.LoginFormConatiner {
+  width: 100%;
+  float: left;
+}
+
+@media (max-width: 767px) {
+  .LoginFormConatiner {
+    padding: 20px;
+  }
+}
+
+.LoginFormInnerContainer {
+  background: #fff;
+  padding: 2rem;
+  border: 1px solid #e4e9f0;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 4px 10px 0 rgba(20, 19, 34, 0.03), 0 0 10px 0 rgba(20, 19, 34, 0.02);
+          box-shadow: 0 4px 10px 0 rgba(20, 19, 34, 0.03), 0 0 10px 0 rgba(20, 19, 34, 0.02);
+}
+
+@media (max-width: 767px) {
+  .LoginFormInnerContainer {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .LoginFormInnerContainer .form-actions {
+    font-size: 13px;
+    color: #595c97;
+  }
+}
+
+.LoginFormInnerContainer .form-actions .ant-btn {
+  height: 38px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .LoginFormInnerContainer .ant-form-item {
+    margin-bottom: 10px;
+  }
+  .LoginFormInnerContainer .ant-form-item label,
+  .LoginFormInnerContainer .ant-form-item .ant-input {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 767px) {
+  .LoginFormInnerContainer .form-group.marginTop-20 {
+    font-size: 13px;
+  }
+}
+
+.LoginFormInnerContainer .ant-form label {
+  font-size: 13px;
+  color: #595c97;
+}
+
+.LoginFormInnerContainer .ant-form-item {
+  margin-bottom: 22px;
+}
+
+.LoginFormInnerContainer .title {
+  font-size: 20px;
+  color: #141322;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 767px) {
+  .LoginFormInnerContainer .title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+}
+
+.LoginFormInnerContainer .LoginFormRememberContainer {
+  margin-bottom: 25px;
+}
+
+.LoginFormInnerContainer .login-form-button {
+  font-weight: 500;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: #1890ff;
+  background-color: #1890ff;
+}
+
+.LoginFormInnerContainer .login-form-button:hover, .LoginFormInnerContainer .login-form-button:active, .LoginFormInnerContainer .login-form-button:focus {
+  background: #40a9ff;
+  border-color: #40a9ff;
+}
+
+@media (max-width: 767px) {
+  .LoginFormInnerContainer .register-link {
+    font-size: 13px;
+  }
+}
+
+.LoginFormInnerContainer .register-link a.text-primary {
+  color: #0ed9e2 !important;
+}
+
+.LoginFormInnerContainer .login-form-forgot.text-primary {
+  color: #0ed9e2 !important;
+}
+
+.LoginFormInnerContainer .ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.LoginFormInnerContainer .ant-checkbox:hover .ant-checkbox-inner,
+.LoginFormInnerContainer .ant-checkbox-input:focus + .ant-checkbox-inner {
+  border-color: #1890ff;
+}
+
+.LoginFormInnerContainer .ant-checkbox-checked .ant-checkbox-inner {
+  border-color: #1890ff;
+  background-color: #1890ff;
+}
+
+.LoginFormInnerContainer .ant-checkbox-checked:after {
+  border-color: #1890ff;
+}
+
+.LoginFormInnerContainer .btn-icon {
+  color: #74708d;
+  background-color: #ffffff;
+  border-color: #d2d9e5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 38px;
+  outline: none;
+  font-size: 15px;
+  padding: 10px;
+}
+
+@media (max-width: 767px) {
+  .LoginFormInnerContainer .btn-icon {
+    height: 30px;
+    font-size: 12px;
+    padding: 8px;
+  }
+}
+
+.LoginFormInnerContainer .btn-icon:hover, .LoginFormInnerContainer .btn-icon:active, .LoginFormInnerContainer .btn-icon:focus {
+  background-color: #dbdee4;
+  border-color: #dbdee4;
+  color: #29d2da;
+  outline: none;
+  border-width: 1px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.LoginFormInnerContainer .ant-input-affix-wrapper .ant-input:hover, .LoginFormInnerContainer .ant-input-affix-wrapper .ant-input:active, .LoginFormInnerContainer .ant-input-affix-wrapper .ant-input:focus {
+  border-color: #0ed9e2 !important;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.LoginFormInnerContainer .ant-input-affix-wrapper:hover .ant-input-prefix .anticon {
+  color: #0ed9e2 !important;
+}
+
+.LoginFormInnerContainer .text-primary:active, .LoginFormInnerContainer .text-primary:focus {
+  text-decoration: none;
+}
+
+.login {
+  background-size: cover;
+  background-color: #f2f4f8;
+  background-position: center center;
+}
+
+.login--fullscreen {
+  position: fixed;
+  z-index: 20000;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.login__block {
+  padding: 5rem 3.07rem;
+  width: 100%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  position: relative;
+  z-index: 2;
+  background: #f2f4f8;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 992px) {
+  .login__block {
+    padding: 3.07rem 1.53rem 6.15rem;
+  }
+}
+
+.login__block__inner {
+  min-width: 23.07rem;
+  max-width: 38.46rem;
+  margin: 0 auto;
+  padding: 3.84rem 3.07rem 1.53rem;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.login__block__form {
+  position: relative;
+  z-index: 2;
+  text-align: left;
+}
+
+.login__block__promo {
+  padding: 0 0 4.61rem;
+  max-width: 61.53rem;
+  font-size: 1.23rem;
+  line-height: 2rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.login__block__sidebar {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .login__block--extended .login__block__inner {
+    max-width: 28.53rem;
+    padding: 2.15rem 2.15rem;
+  }
+  .login__block--extended .login__block__sidebar {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 23.07rem;
+    padding: 6.15rem 3.07rem;
+    color: #ffffff;
+    background: #222034;
+  }
+  .login__block--extended .login__block__sidebar__item {
+    padding-left: 1.53rem;
+    border-left: 2px solid #74708d;
+    margin-bottom: 1.53rem;
+    color: #74708d;
+  }
+  .login__block--extended .login__block__sidebar__title {
+    margin-bottom: 1.53rem;
+    line-height: 1.5;
+  }
+  .login__block--extended .login__block__sidebar__place {
+    font-size: 1.07rem;
+    font-weight: bold;
+    position: absolute;
+    z-index: 2;
+    bottom: 3.07rem;
+    left: 3.07rem;
+  }
+}
+
+.login__header {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  width: 100%;
+  color: #ffffff;
+  padding: 15px 0;
+}
+
+@media (max-width: 992px) {
+  .login__header {
+    padding: 3.07rem 1.53rem 3.07rem;
+  }
+}
+
+.login__header__logo {
+  float: left;
+}
+
+.login__header__logo img {
+  max-width: 8.53rem;
+}
+
+.login__header__menu {
+  text-align: right;
+  margin-top: 0.76rem;
+}
+
+@media (max-width: 992px) {
+  .login__header__menu {
+    text-align: left;
+  }
+}
+
+.login__header__menu ul {
+  font-size: 1.23rem;
+}
+
+.login__header__menu ul li {
+  margin-right: 1.53rem;
+  text-transform: uppercase;
+}
+
+.login__header__menu ul li:last-child {
+  margin-right: 0;
+}
+
+.login__header__menu ul li.active a {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.login__header__menu ul li a {
+  color: #ffffff !important;
+  line-height: 1.4;
+  display: inline-block;
+  margin-right: 0.76rem;
+  font-weight: bold;
+}
+
+.login__header__menu ul li a:hover {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.login__footer {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  width: 100%;
+  color: white;
+  padding: 3.07rem;
+}
+
+@media (max-width: 992px) {
+  .login__footer {
+    padding: 3.07rem 1.53rem 3.07rem;
+  }
+}
+
+.login__footer ul {
+  margin-bottom: 0;
+}
+
+.login__footer ul li {
+  margin-right: 1.53rem;
+  text-transform: uppercase;
+}
+
+.login__footer ul li:last-child {
+  margin-right: 0;
+}
+
+.login__footer ul li a {
+  color: #ffffff;
+  opacity: .7;
+  line-height: 1.4;
+  display: inline-block;
+  margin-right: 0.76rem;
+}
+
+.login__footer ul li a:hover {
+  opacity: 1;
+}
+
+.login-form-forgot {
+  float: right;
+}
+
+@media (max-width: 767px) {
+  .login-form-forgot {
+    font-size: 13px;
+  }
+}
+
+.btn,
+.show > .btn {
+  color: #74708d;
+  background-color: #ffffff;
+  border-color: #d2d9e5;
+}
+
+.marginTop-15 {
+  margin-top: 15px;
+}
+
+.ant-input {
+  border-color: #e4e9f0;
+}
+
+.ant-btn-primary,
+.ant-btn-primary:active,
+.ant-btn-primary:focus {
+  background-color: #0ed9e2;
+  border-color: #0ed9e2;
+}
+
+.ant-btn-primary:hover {
+  background-color: #12d3dc;
+  border-color: #12d3dc;
+}
+
+.text-primary {
+  color: #0ed9e2 !important;
+}
+
+a.text-primary:hover {
+  text-decoration: none;
+  color: #12d3dc !important;
+}
+
+.utils__link--underlined {
+  border-bottom: 1px solid #cdcdd1;
+}
+/*# sourceMappingURL=style.css.map */

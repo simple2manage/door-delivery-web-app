@@ -1,0 +1,105 @@
+@import '../../../_mixins';
+
+.ListCategoriesContent{
+    width: 100%;
+    float: left;
+    padding: 15px;
+    @include breakpoint(md) {
+        padding-right: 35px;
+    }
+    .PageTitle{
+        width: 100%;
+        float: left;
+        color: #141322;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .UserTable{
+        width: 100%;
+        float: left;
+        @include breakpoint(sm) {
+            overflow: scroll;
+        }
+        .ant-table-thead > tr > th{
+            font-size: 13px;
+            color: #595c97;
+            font-weight: 500;
+            text-align: left;
+            background: #f0f2f4;
+            border-bottom: 1px solid #e4e9f0;
+            transition: background .3s ease;
+            @include breakpoint(sm) {
+                white-space: nowrap;
+            }
+        }
+         .ant-table-tbody > tr > td {
+            padding: 16px 16px;
+            overflow-wrap: break-word;
+            font-size: 13px;
+            color: #595c97;
+            @include breakpoint(sm) {
+                white-space: nowrap;
+            }
+        }
+        .ant-btn-link {
+            color: #5960b4;
+            font-size: 13px;
+            height: 24px;
+            padding: 0 10px;
+        }
+        .btn-delete {
+            font-size: 13px;
+            color: #5960b4;
+            background-color: transparent;
+            border: none;
+            box-shadow: none;
+            }
+            
+    }
+    .CategoriesViewContainer{
+        width: 100%;
+        float: left;
+        .CategoriesViewList{
+            width: 100%;
+            float: left;
+            .TextRegular{
+                width: 100%;
+                float: left;
+                font-size: 13px;
+                color: #141322;
+                font-weight: 400;
+            }
+            .TextSemiBold{
+                width: 100%;
+                float: left;
+                font-size: 16px;
+                color: #141322;
+                font-weight: 600;
+            }
+            .ant-select{
+                width: 100%;
+            }
+            .ant-btn-primary{
+                background-color: #30d972;
+                border-color: #30d972;
+            }
+        }
+        .CategoriesViewProfile{
+            width: 100%;
+            float: left;
+            .ant-upload.ant-upload-select-picture-card{
+                width: 265px;
+                height: 265px;
+            }
+        }
+       
+        
+    }
+    
+}
+
+.uploadDocument{ .ant-upload.ant-upload-select{
+    margin-top: 9px;
+    }
+}
+

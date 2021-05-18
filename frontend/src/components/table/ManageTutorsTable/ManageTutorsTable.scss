@@ -1,0 +1,206 @@
+.SectionTableActionSet {
+    display: flex;
+
+    .Section-Table-Edit {
+        border-color: #e4e9f0;
+        font-size: 12px;
+        color: #f5222d;
+        background-color: #f2f4f8 !important;
+        margin-right: 10px;
+
+        &:hover,
+        &:active,
+        &:focus {
+            border-color: #e4e9f0;
+            color: #f5222d;
+        }
+    }
+
+    .Section-Table-Delete {
+        border-color: #e4e9f0 !important;
+        font-size: 12px;
+        background-color: #f2f4f8 !important;
+    }
+}
+
+.ant-table {
+    font-family: 'Montserrat', sans-serif !important;
+
+    .ant-table-thead {
+        tr {
+            th {
+                font-size: 13px;
+                background-color: #f2f4f8;
+                color: #242425;
+                padding: 12px 12px;
+                font-size: 13px;
+
+                // &:last-child {
+                //     text-align: center;
+                // }
+            }
+        }
+    }
+
+    .ant-table-tbody {
+        tr {
+            td {
+                padding: 12px 12px;
+                color: #595959;
+                font-size: 13px;
+                position: relative;
+
+                a {
+                    display: flex;
+                    align-items: center;
+                    padding: 0;
+                    position: relative;
+                    left: 0;
+                    right: 0;
+                    top: 0;
+                    bottom: 0;
+                    color: #595959;
+
+                    &:active,
+                    &:focus,
+                    &:hover {
+                        color: #595959;
+                        text-decoration: none;
+                    }
+                }
+
+                &:last-child {
+                    justify-content: center;
+                }
+            }
+
+            &:hover {
+                td {
+                    background: rgba(214, 253, 255, 0.11);
+                }
+            }
+        }
+    }
+}
+
+.ant-table-pagination {
+    &.ant-pagination {
+        float: left !important;
+
+        .ant-pagination-item {
+            color: #595959;
+            font-size: 13px;
+            font-family: 'Montserrat', sans-serif;
+            border-color: #e4e9f0;
+        }
+
+        .ant-pagination-next,
+        .ant-pagination-prev {
+            .ant-pagination-item-link {
+                color: #595959;
+                font-size: 13px;
+                border: none;
+
+                .anticon {
+                    display: none;
+                }
+
+                &:after {
+                    font-size: 13px;
+                    font-family: 'Montserrat', sans-serif;
+                    color: #595959;
+                }
+            }
+        }
+
+        .ant-pagination-next {
+            .ant-pagination-item-link {
+                &:after {
+                    content: "Next";
+                }
+            }
+        }
+
+        .ant-pagination-prev {
+            .ant-pagination-item-link {
+                &:after {
+                    content: "Previous";
+                }
+            }
+        }
+    }
+}
+
+.ant-pagination-item-active {
+    border-color: #1890ff !important;
+    font-weight: 500;
+}
+
+// List Categories Table style start
+.EditOperationGroup {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    a {
+        position: relative !important;
+    }
+}
+
+.ant-table .ant-table-tbody .Edit-Table-Btn {
+    position: relative;
+    display: block;
+    padding: 0;
+    float: left;
+    border: 1px solid #e4e9f0;
+    font-size: 12px;
+    color: #f5222d;
+    background-color: #f2f4f8 !important;
+    margin-right: 10px;
+    padding: 0 7px;
+    border-radius: 4px;
+    height: 24px;
+    cursor: pointer;
+    line-height: 22px;
+
+    &:hover,
+    &:active,
+    &:focus {
+        color: #f5222d;
+    }
+}
+.ant-table .ant-table-tbody .save-Table-Btn {
+    position: relative;
+    display: block;
+    padding: 0;
+    float: left;
+    border: 1px solid #0ed9e2;
+    font-size: 12px;
+    color: #fff;
+    background-color: #0ed9e2;
+    margin-right: 10px;
+    padding: 0 7px;
+    border-radius: 4px;
+    height: 24px;
+    cursor: pointer;
+    line-height: 22px;
+
+    &:hover,
+    &:active,
+    &:focus {
+        color: #fff;
+        background-color: #0ed9e2;
+    }
+}
+.ListCategoriesTableContainer {
+    .ant-table-tbody {
+            .ant-avatar-image {
+                margin-right: 10px;
+            }
+    }
+}
+.ant-table-body {
+    .ant-avatar-image {
+        margin-right: 8px;
+    }
+}

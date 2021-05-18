@@ -1,0 +1,16 @@
+.home-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.home-container h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  .home-container h1 {
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=home.css.map */

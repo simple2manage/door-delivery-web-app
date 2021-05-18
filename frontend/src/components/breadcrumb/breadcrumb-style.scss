@@ -1,0 +1,18 @@
+.breadcrumbMain{
+	width: 100%;
+	float: left;
+	.ant-breadcrumb{
+		font-size: 12px;
+		padding: 0 20px;
+		a{
+			color: #595c97
+		}
+		span:last-child{
+			color: #141322;
+			font-weight: 600;
+		}
+		.ant-breadcrumb-separator{
+			color: #aeb0d7  !important;
+		}
+	}
+}

@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import '../_mixins';
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f2f4f8;
+    float: left;
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+}
+
+.ant-layout-content {
+    margin-bottom: 2.3rem !important;
+}
+
+.PageMidContent {
+    float: left;
+    width: 100%;
+    background: #fff;
+    min-height: 360px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+/* Common styles */
+.displaynone {
+    display: none;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.marginTop-20 {
+    margin-top: 20px;
+}
+
+.marginBottom-20 {
+    margin-bottom: 20px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.width-auto {
+    width: auto;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+/* FLEX */
+.flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+.flexResponsive1024,
+.flexResponsive900,
+.flexResponsive768,
+.flexResponsive520 {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.flex2 {
+    flex: 2;
+}
+
+.flex3 {
+    flex: 3;
+}
+
+.flex4 {
+    flex: 4;
+}
+
+.flex5 {
+    flex: 5;
+}
+
+.flex6 {
+    flex: 6
+}
+
+.flex7 {
+    flex: 7;
+}
+
+.flexWeird {
+    -webkit-flex: 1 0 auto;
+}
+
+.flexDirectionRow {
+    -moz-box-direction: row;
+    -webkit-box-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -ms-flexbox-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.flexDirectionCol {
+    -moz-box-direction: column;
+    -webkit-box-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flexbox-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.flexWrap {
+    -moz-box-wrap: wrap;
+    -webkit-box-wrap: wrap;
+    -ms-flexbox-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.flexNoWrap {
+    -moz-box-wrap: nowrap;
+    -webkit-box-wrap: nowrap;
+    -ms-flexbox-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+.flexWrapReverse {
+    -moz-box-wrap: wrap-reverse;
+    -webkit-box-wrap: wrap-reverse;
+    -ms-flexbox-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
+}
+
+.flexJustifyBetween {
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: space-between;
+    justify-content: space-between;
+}
+
+.flexJustifyAround {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: space-around;
+    justify-content: space-around;
+}
+
+.flexJustifyStart {
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: flex-start;
+    justify-content: flex-start;
+}
+
+.flexJustifyEnd {
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: flex-end;
+    justify-content: flex-end;
+}
+
+.flexJustifyCenter {
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.flexAlignItemsCenter {
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.flexAlignItemsBaseline {
+    -webkit-align-items: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+}
+
+.flexAlignItemsStart {
+    -webkit-align-items: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+}
+
+.flexAlignItemsEnd {
+    -webkit-align-items: flex-end;
+    -ms-flex-align: flex-end;
+    align-items: flex-end;
+}
+
+.flexAlignItemsStretch {
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.flexAlignContentCenter {
+    -webkit-box-align-content: center;
+    -webkit-align-content: center;
+    -ms-flex-align-content: center;
+    align-content: center;
+}
+
+.flexAlignContentAround {
+    -webkit-box-align-content: space-around;
+    -webkit-align-content: space-around;
+    -ms-flex-align-content: space-around;
+    align-content: space-around;
+}
+
+.flexAlignContentStart {
+    -webkit-box-align-content: flex-start;
+    -webkit-align-content: flex-start;
+    -ms-flex-align-content: flex-start;
+    align-content: flex-start;
+}
+
+.flexAlignContentEnd {
+    -webkit-box-align-content: flex-end;
+    -webkit-align-content: flex-end;
+    -ms-flex-align-content: flex-end;
+    align-content: flex-end;
+}
+
+.flexAlignContentBetween {
+    -webkit-box-align-content: space-between;
+    -webkit-align-content: space-between;
+    -ms-flex-align-content: space-between;
+    align-content: space-between;
+}
+
+.flexAlignContentStretch {
+    -webkit-box-align-content: stretch;
+    -webkit-align-content: stretch;
+    -ms-flex-align-content: stretch;
+    align-content: stretch;
+}
+
+/* FLEX */
+
+// Input Style
+.ant-input,
+.ant-select-auto-complete.ant-select-lg .ant-input {
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #e4e9f0;
+    outline: none;
+    box-shadow: none;
+    height: 34px;
+    border-radius: 2px;
+    color: #141322;
+    font-size: 13px;
+
+    &:active,
+    &:focus,
+    &:hover {
+        outline: none;
+        box-shadow: none;
+        border-color: #78a3ff;
+    }
+}
+
+.ant-select-selection--single {
+    height: 34px;
+}
+
+.ant-select-selection__rendered {
+    line-height: 34px;
+    font-size: 13px;
+    color: #141322;
+}
+
+.ant-select-selection {
+    border-radius: 2px;
+}
+
+.ant-select-selection:hover {
+    border-color: #78a3ff;
+    border-right-width: 1px !important;
+}
+
+.ant-select-focused .ant-select-selection,
+.ant-select-selection:focus,
+.ant-select-selection:active {
+    border-color: #78a3ff;
+}
+
+.AdminLoginContent {
+    display: flex;
+    // min-height: calc(100vh - 75px);
+    min-height: 100vh;
+    height: 100%;
+    align-items: center;
+}
+
+.ant-message-custom-content {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.ant-layout {
+    background: #fff
+}
+
+.ant-btn {
+    font-size: 13px;
+}
+
+.ant-modal-content {
+    .ant-btn-primary {
+        color: #fff;
+        background: #1890ff;
+        border-color: #1890ff;
+    }
+
+    .ant-select {
+        width: 100%;
+    }
+}
+
+.mobile-log {
+    display: none;
+}
+
+@media screen and (max-width: 1023px) {
+    .AdminPanelContainer {
+        .ant-layout-sider {
+            position: absolute;
+            z-index: 9;
+            left: -225px;
+        }
+    }
+
+    .ant-layout-header {
+        .ProfileMenu {
+            display: flex;
+            justify-content: space-between;
+
+            .mobile-log {
+                display: flex;
+
+                .MainLogo {
+                    height: 35px;
+                }
+
+                .mobile-menu {
+                    margin-right: 15px;
+                    font-size: 22px;
+                    color: #141221;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .open-mobile-menu {
+        .AdminPanelContainer {
+            .AdminSideBar {
+                left: 0;
+            }
+
+            .menu-backdrop {
+                position: fixed;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                background: rgba(0, 0, 0, 0.5);
+                z-index: 7;
+                transition: all ease .5s;
+            }
+        }
+    }
+}
