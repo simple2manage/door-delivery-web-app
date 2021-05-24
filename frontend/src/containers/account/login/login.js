@@ -42,13 +42,10 @@ class Login extends Component {
                     name="team_id"
                     rules={[
                       {
-                        required: false,
-                        message: "Please input your E-mail",
+                        required: true,
+                        message: "Please input your team id",
                       },
-                      {
-                        type: "email",
-                        message: "Please input valid E-mail",
-                      },
+                      
                     ]}
                   >
                     <Input placeholder="Your Team ID" />
@@ -58,13 +55,10 @@ class Login extends Component {
                     name="team_name"
                     rules={[
                       {
-                        required: false,
-                        message: "Please input your E-mail",
+                        required: true,
+                        message: "Please input your team name",
                       },
-                      {
-                        type: "email",
-                        message: "Please input valid E-mail",
-                      },
+                     
                     ]}
                   >
                     <Input placeholder="Your Team Name" />
@@ -75,12 +69,9 @@ class Login extends Component {
                     rules={[
                       {
                         required: true,
-                        message: "Please input your E-mail",
+                        message: "Please input your mobile",
                       },
-                      {
-                        type: "email",
-                        message: "Please input valid E-mail",
-                      },
+                      
                     ]}
                   >
                     <Input placeholder="Your Mobile" />
